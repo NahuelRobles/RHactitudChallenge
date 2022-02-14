@@ -13,7 +13,6 @@ import { styles } from './styles';
 export const Home = memo(() => {
   const dispatch = useDispatch();
   const { data, isLoading } = useMappedState(videoSelector);
-  console.log(data, isLoading)
 
   useEffect(() => {
     dispatch(loadVideo());

@@ -28,7 +28,6 @@ export const RootNavigation = memo(() => {
     }
   }, [ settings, triggerAxiosInterceptors ]);
 
-  console.log(settings.isLoading)
   if (settings.isLoading) { 
     return <Spinner />
   }
