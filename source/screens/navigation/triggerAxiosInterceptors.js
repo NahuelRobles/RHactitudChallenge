@@ -5,7 +5,6 @@ import Config from 'react-native-config';
 
 import { storeSync } from '~/utils';
 import { TOKEN } from '~/constants';
-
 export const triggerAxiosInterceptors = () => {
   axios.interceptors.response.use(
     (response) => {
