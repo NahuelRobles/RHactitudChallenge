@@ -12,6 +12,10 @@ target 'RHactitudChallenge' do
     :hermes_enabled => false
   )
 
+  pod 'react-native-video', :path => '../node_modules/react-native-video'
+
+  pod 'react-native-config', :path => '../node_modules/react-native-config'
+
   target 'RHactitudChallengeTests' do
     inherit! :complete
     # Pods for testing

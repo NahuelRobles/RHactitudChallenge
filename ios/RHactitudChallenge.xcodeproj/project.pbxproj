@@ -8,12 +8,12 @@
 
 /* Begin PBXBuildFile section */
 		00E356F31AD99517003FC87E /* RHactitudChallengeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* RHactitudChallengeTests.m */; };
-		0FA84DEBA8F989F823E2E2D6 /* libPods-RHactitudChallenge.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 14566F162B2FD26BF797700F /* libPods-RHactitudChallenge.a */; };
 		13B07FBC1A68108700A75B9A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.m */; };
 		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
+		1632E1A34665470F205117DE /* libPods-RHactitudChallenge-RHactitudChallengeTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = EE653D770E684D60D8513AEB /* libPods-RHactitudChallenge-RHactitudChallengeTests.a */; };
+		4088809F1B1B4219C62D0D9C /* libPods-RHactitudChallenge.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CB83D6156FFE4B3F57D1B84E /* libPods-RHactitudChallenge.a */; };
 		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
-		F82AE0F7A44D765FE33EBD3B /* libPods-RHactitudChallenge-RHactitudChallengeTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E535171DACE0E3F8E407D24E /* libPods-RHactitudChallenge-RHactitudChallengeTests.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,14 +36,14 @@
 		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = RHactitudChallenge/Images.xcassets; sourceTree = "<group>"; };
 		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = RHactitudChallenge/Info.plist; sourceTree = "<group>"; };
 		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = RHactitudChallenge/main.m; sourceTree = "<group>"; };
-		14566F162B2FD26BF797700F /* libPods-RHactitudChallenge.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-RHactitudChallenge.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		4A18A27FF58FFD68E018C31C /* Pods-RHactitudChallenge.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RHactitudChallenge.release.xcconfig"; path = "Target Support Files/Pods-RHactitudChallenge/Pods-RHactitudChallenge.release.xcconfig"; sourceTree = "<group>"; };
-		737A146012BEAC1548D59D02 /* Pods-RHactitudChallenge-RHactitudChallengeTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RHactitudChallenge-RHactitudChallengeTests.release.xcconfig"; path = "Target Support Files/Pods-RHactitudChallenge-RHactitudChallengeTests/Pods-RHactitudChallenge-RHactitudChallengeTests.release.xcconfig"; sourceTree = "<group>"; };
+		1D3893260A9762952E1094F8 /* Pods-RHactitudChallenge-RHactitudChallengeTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RHactitudChallenge-RHactitudChallengeTests.release.xcconfig"; path = "Target Support Files/Pods-RHactitudChallenge-RHactitudChallengeTests/Pods-RHactitudChallenge-RHactitudChallengeTests.release.xcconfig"; sourceTree = "<group>"; };
+		1F7783E90F2A1FFABB7F49F5 /* Pods-RHactitudChallenge.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RHactitudChallenge.debug.xcconfig"; path = "Target Support Files/Pods-RHactitudChallenge/Pods-RHactitudChallenge.debug.xcconfig"; sourceTree = "<group>"; };
 		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = RHactitudChallenge/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		85FE12FB009C040300B1A8D6 /* Pods-RHactitudChallenge-RHactitudChallengeTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RHactitudChallenge-RHactitudChallengeTests.debug.xcconfig"; path = "Target Support Files/Pods-RHactitudChallenge-RHactitudChallengeTests/Pods-RHactitudChallenge-RHactitudChallengeTests.debug.xcconfig"; sourceTree = "<group>"; };
-		9109EC9178DE465482DCB17D /* Pods-RHactitudChallenge.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RHactitudChallenge.debug.xcconfig"; path = "Target Support Files/Pods-RHactitudChallenge/Pods-RHactitudChallenge.debug.xcconfig"; sourceTree = "<group>"; };
-		E535171DACE0E3F8E407D24E /* libPods-RHactitudChallenge-RHactitudChallengeTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-RHactitudChallenge-RHactitudChallengeTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C9D4FE26B944DCC04192D961 /* Pods-RHactitudChallenge-RHactitudChallengeTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RHactitudChallenge-RHactitudChallengeTests.debug.xcconfig"; path = "Target Support Files/Pods-RHactitudChallenge-RHactitudChallengeTests/Pods-RHactitudChallenge-RHactitudChallengeTests.debug.xcconfig"; sourceTree = "<group>"; };
+		CB83D6156FFE4B3F57D1B84E /* libPods-RHactitudChallenge.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-RHactitudChallenge.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CD38A0A511C6AE180A5447DC /* Pods-RHactitudChallenge.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RHactitudChallenge.release.xcconfig"; path = "Target Support Files/Pods-RHactitudChallenge/Pods-RHactitudChallenge.release.xcconfig"; sourceTree = "<group>"; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
+		EE653D770E684D60D8513AEB /* libPods-RHactitudChallenge-RHactitudChallengeTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-RHactitudChallenge-RHactitudChallengeTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,7 +51,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F82AE0F7A44D765FE33EBD3B /* libPods-RHactitudChallenge-RHactitudChallengeTests.a in Frameworks */,
+				1632E1A34665470F205117DE /* libPods-RHactitudChallenge-RHactitudChallengeTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -59,7 +59,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0FA84DEBA8F989F823E2E2D6 /* libPods-RHactitudChallenge.a in Frameworks */,
+				4088809F1B1B4219C62D0D9C /* libPods-RHactitudChallenge.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -100,8 +100,8 @@
 			isa = PBXGroup;
 			children = (
 				ED297162215061F000B7C4FE /* JavaScriptCore.framework */,
-				14566F162B2FD26BF797700F /* libPods-RHactitudChallenge.a */,
-				E535171DACE0E3F8E407D24E /* libPods-RHactitudChallenge-RHactitudChallengeTests.a */,
+				CB83D6156FFE4B3F57D1B84E /* libPods-RHactitudChallenge.a */,
+				EE653D770E684D60D8513AEB /* libPods-RHactitudChallenge-RHactitudChallengeTests.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -140,10 +140,10 @@
 		D7353B0737191656CE00FD38 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				9109EC9178DE465482DCB17D /* Pods-RHactitudChallenge.debug.xcconfig */,
-				4A18A27FF58FFD68E018C31C /* Pods-RHactitudChallenge.release.xcconfig */,
-				85FE12FB009C040300B1A8D6 /* Pods-RHactitudChallenge-RHactitudChallengeTests.debug.xcconfig */,
-				737A146012BEAC1548D59D02 /* Pods-RHactitudChallenge-RHactitudChallengeTests.release.xcconfig */,
+				1F7783E90F2A1FFABB7F49F5 /* Pods-RHactitudChallenge.debug.xcconfig */,
+				CD38A0A511C6AE180A5447DC /* Pods-RHactitudChallenge.release.xcconfig */,
+				C9D4FE26B944DCC04192D961 /* Pods-RHactitudChallenge-RHactitudChallengeTests.debug.xcconfig */,
+				1D3893260A9762952E1094F8 /* Pods-RHactitudChallenge-RHactitudChallengeTests.release.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
@@ -155,12 +155,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "RHactitudChallengeTests" */;
 			buildPhases = (
-				F15EDB6A3E1935C423B7B9FA /* [CP] Check Pods Manifest.lock */,
+				887282EDA98BD0502B6D9F35 /* [CP] Check Pods Manifest.lock */,
 				00E356EA1AD99517003FC87E /* Sources */,
 				00E356EB1AD99517003FC87E /* Frameworks */,
 				00E356EC1AD99517003FC87E /* Resources */,
-				571C013CA6048310AF2EE714 /* [CP] Embed Pods Frameworks */,
-				4467ACF06F69C34248BEA9F1 /* [CP] Copy Pods Resources */,
+				9E43C9DFD1C6A17B702B5266 /* [CP] Embed Pods Frameworks */,
+				F924B270707C58096C130DF6 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -176,14 +176,14 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "RHactitudChallenge" */;
 			buildPhases = (
-				605E439EE513446952E1C12C /* [CP] Check Pods Manifest.lock */,
+				A809B06CE7A55EF26F2580D6 /* [CP] Check Pods Manifest.lock */,
 				FD10A7F022414F080027D42C /* Start Packager */,
 				13B07F871A680F5B00A75B9A /* Sources */,
 				13B07F8C1A680F5B00A75B9A /* Frameworks */,
 				13B07F8E1A680F5B00A75B9A /* Resources */,
 				00DD1BFF1BD5951E006B06BC /* Bundle React Native code and images */,
-				C63A2070A431B5448DC31F76 /* [CP] Embed Pods Frameworks */,
-				81127113DE4D65F03BA28F65 /* [CP] Copy Pods Resources */,
+				1DCD54B485219610DE9D35AD /* [CP] Embed Pods Frameworks */,
+				6C9CBDBB195AE693D67E34E1 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -264,24 +264,63 @@
 			shellPath = /bin/sh;
 			shellScript = "set -e\n\nexport NODE_BINARY=node\n../node_modules/react-native/scripts/react-native-xcode.sh\n";
 		};
-		4467ACF06F69C34248BEA9F1 /* [CP] Copy Pods Resources */ = {
+		1DCD54B485219610DE9D35AD /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-RHactitudChallenge-RHactitudChallengeTests/Pods-RHactitudChallenge-RHactitudChallengeTests-resources-${CONFIGURATION}-input-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-RHactitudChallenge/Pods-RHactitudChallenge-frameworks-${CONFIGURATION}-input-files.xcfilelist",
 			);
-			name = "[CP] Copy Pods Resources";
+			name = "[CP] Embed Pods Frameworks";
 			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-RHactitudChallenge-RHactitudChallengeTests/Pods-RHactitudChallenge-RHactitudChallengeTests-resources-${CONFIGURATION}-output-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-RHactitudChallenge/Pods-RHactitudChallenge-frameworks-${CONFIGURATION}-output-files.xcfilelist",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-RHactitudChallenge-RHactitudChallengeTests/Pods-RHactitudChallenge-RHactitudChallengeTests-resources.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-RHactitudChallenge/Pods-RHactitudChallenge-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		571C013CA6048310AF2EE714 /* [CP] Embed Pods Frameworks */ = {
+		6C9CBDBB195AE693D67E34E1 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-RHactitudChallenge/Pods-RHactitudChallenge-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-RHactitudChallenge/Pods-RHactitudChallenge-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-RHactitudChallenge/Pods-RHactitudChallenge-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		887282EDA98BD0502B6D9F35 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-RHactitudChallenge-RHactitudChallengeTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9E43C9DFD1C6A17B702B5266 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -298,7 +337,7 @@
 			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-RHactitudChallenge-RHactitudChallengeTests/Pods-RHactitudChallenge-RHactitudChallengeTests-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		605E439EE513446952E1C12C /* [CP] Check Pods Manifest.lock */ = {
+		A809B06CE7A55EF26F2580D6 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -320,60 +359,21 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		81127113DE4D65F03BA28F65 /* [CP] Copy Pods Resources */ = {
+		F924B270707C58096C130DF6 /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-RHactitudChallenge/Pods-RHactitudChallenge-resources-${CONFIGURATION}-input-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-RHactitudChallenge-RHactitudChallengeTests/Pods-RHactitudChallenge-RHactitudChallengeTests-resources-${CONFIGURATION}-input-files.xcfilelist",
 			);
 			name = "[CP] Copy Pods Resources";
 			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-RHactitudChallenge/Pods-RHactitudChallenge-resources-${CONFIGURATION}-output-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-RHactitudChallenge-RHactitudChallengeTests/Pods-RHactitudChallenge-RHactitudChallengeTests-resources-${CONFIGURATION}-output-files.xcfilelist",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-RHactitudChallenge/Pods-RHactitudChallenge-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		C63A2070A431B5448DC31F76 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-RHactitudChallenge/Pods-RHactitudChallenge-frameworks-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-RHactitudChallenge/Pods-RHactitudChallenge-frameworks-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-RHactitudChallenge/Pods-RHactitudChallenge-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		F15EDB6A3E1935C423B7B9FA /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-RHactitudChallenge-RHactitudChallengeTests-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-RHactitudChallenge-RHactitudChallengeTests/Pods-RHactitudChallenge-RHactitudChallengeTests-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		FD10A7F022414F080027D42C /* Start Packager */ = {
@@ -428,7 +428,7 @@
 /* Begin XCBuildConfiguration section */
 		00E356F61AD99517003FC87E /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 85FE12FB009C040300B1A8D6 /* Pods-RHactitudChallenge-RHactitudChallengeTests.debug.xcconfig */;
+			baseConfigurationReference = C9D4FE26B944DCC04192D961 /* Pods-RHactitudChallenge-RHactitudChallengeTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				GCC_PREPROCESSOR_DEFINITIONS = (
@@ -455,7 +455,7 @@
 		};
 		00E356F71AD99517003FC87E /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 737A146012BEAC1548D59D02 /* Pods-RHactitudChallenge-RHactitudChallengeTests.release.xcconfig */;
+			baseConfigurationReference = 1D3893260A9762952E1094F8 /* Pods-RHactitudChallenge-RHactitudChallengeTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				COPY_PHASE_STRIP = NO;
@@ -479,7 +479,7 @@
 		};
 		13B07F941A680F5B00A75B9A /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 9109EC9178DE465482DCB17D /* Pods-RHactitudChallenge.debug.xcconfig */;
+			baseConfigurationReference = 1F7783E90F2A1FFABB7F49F5 /* Pods-RHactitudChallenge.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
@@ -506,7 +506,7 @@
 		};
 		13B07F951A680F5B00A75B9A /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 4A18A27FF58FFD68E018C31C /* Pods-RHactitudChallenge.release.xcconfig */;
+			baseConfigurationReference = CD38A0A511C6AE180A5447DC /* Pods-RHactitudChallenge.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;

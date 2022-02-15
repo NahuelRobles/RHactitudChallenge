@@ -3,7 +3,10 @@
 import React, { memo, useCallback, useState } from 'react';
 import { View, Text, FlatList, TouchableOpacity, Image } from 'react-native';
 
-import { Spinner } from '~/components';
+import { PopUp } from '../ModalPopup/PopUp';
+
+import { Spinner, ModalPopup } from '~/components';
+import { NO_DATA } from '~/constants';
 import { fixImage } from '~/utils';
 
 import { styles } from './styles';
@@ -14,15 +17,26 @@ export const Carousel = memo(({ data = null, isLoading = true, type = '' }) => {
   const width = type === 'poster' ? 300 : 500;
 
   const [isLoadingImage, setIsLoadingImage] = useState(true);
-  
+  const [item, setItem] = useState('');
+  const [isVisible, setIsVisible] = useState(false);
+
   const keyExtractor = (item, index) => {
     return (item.id || item.key || index).toString();
   };
 
+  const onCloseModal = useCallback(() => {
+    setIsVisible(false);
+  }, []);
+
+  const handleOnPress = useCallback((videoItem) => {
+    setItem(videoItem);
+    setIsVisible(true);
+  }, []);
+
   const handleRenderItem = useCallback(({ item, index }) => {
     const uri = { uri: fixImage(item.imageUrl)}
     return (
-      <TouchableOpacity onPress={() => {}}>
+      <TouchableOpacity onPress={() => {handleOnPress(item)}}>
         <View style={styles.content} >
           {isLoadingImage && <View style={styles.loadingContent(height, width)}><Spinner/></View>}
          <View style={styles.imageContent(isLoadingImage)}>
@@ -50,7 +64,7 @@ export const Carousel = memo(({ data = null, isLoading = true, type = '' }) => {
           !isLoading &&
           !data.length && (
             <View style={styles.wrapper}>
-              <Text>No data found</Text>
+              <Text>{NO_DATA}</Text>
             </View>
           )
         }
@@ -69,6 +83,9 @@ export const Carousel = memo(({ data = null, isLoading = true, type = '' }) => {
     <View style={styles.container}>
       <Text style={styles.textType}>{type}</Text>
       {handleRenderContent()}
+      <ModalPopup onRequestClose={onCloseModal} isVisible={isVisible}>
+        <PopUp item={item} />
+      </ModalPopup>
     </View>
   );
 });

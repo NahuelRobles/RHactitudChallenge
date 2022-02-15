@@ -19,6 +19,7 @@
     "react": "17.0.2",
     "react-native": "0.67.1",
     "react-native-config": "1.4.1",
+    "react-native-video": "^5.2.0",
     "redux": "4.1.0",
     "redux-react-hook": "4.0.3",
     "redux-saga": "1.1.3"
